@@ -1,1 +1,2 @@
 C:\MHBSTUDY\Project1\x64\Debug\Project1.exe
+C:\MHBSTUDY\Number\Number\x64\Debug\Project1.exe

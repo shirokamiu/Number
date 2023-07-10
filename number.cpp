@@ -2,6 +2,14 @@
 #include<stdio.h>
 #define SIZE 20
 
+/*
+    N個の自然数 A1,A2,…ANが7進数で、標準入力から入力される。
+    それらの和を、6進数で標準出力に出力せよ。
+
+    2 <= N <= 20
+    1 <= Ai <= 1000
+*/
+
 int change10(int n)
 {
 	int sum = 0;
@@ -37,12 +45,9 @@ int main()
 	int sum = 0;
 	int i = 0;
 	int s6;
-	printf("2から20までの値を入力せよ:");
+	printf("2から20までの値を入力せよ:\n");
 	scanf("%d", &n);
-	if (n < 2 || n > SIZE)
-	{
-		printf("エラー、もう一度入力してください\n");
-	}
+	printf("1から1000までの%d個数を入力せよ:\n", n);
 	for (i = 0; i < n; i++)
 	{
 		scanf("%d", &N7[i]);
